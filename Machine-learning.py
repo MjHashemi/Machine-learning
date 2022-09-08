@@ -7,7 +7,7 @@ from sklearn import preprocessing
 from random import randint
 from time import sleep
 
-cnx = mysql.connector.connect(user='root', password='1234', host='127.0.0.1', database='cars')
+cnx = mysql.connector.connect(user='root', password='****', host='***.*.*.*', database='cars')
 # INPUT CODE
 user_brand = input()
 user_year = int(input())
